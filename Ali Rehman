@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AR Real Estate Consultant</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #000;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(180deg, #111, #000);
+    }
+    header h1 {
+      color: #d4af37;
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+      letter-spacing: 1px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #d4af37;
+      font-size: 2em;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .about p, .services p {
+      text-align: center;
+      color: #ddd;
+      line-height: 1.8;
+    }
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .service-box {
+      background: #111;
+      border: 1px solid #d4af37;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .service-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px rgba(212,175,55,0.3);
+    }
+    .service-box h3 {
+      color: #d4af37;
+      margin-bottom: 10px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      color: #d4af37;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AR Real Estate Consultant</h1>
+    <p>Building Dreams, Securing Investments</p>
+  </header>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>At AR Real Estate Consultant, we specialize in selling residential and commercial plots, offering top-tier construction services, and helping clients make secure and profitable property investments. Our mission is to deliver trust, transparency, and excellence in every project we handle.</p>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <div class="service-box">
+        <h3>Residential Plots</h3>
+        <p>We provide premium residential plots that meet modern living standards, ensuring quality and convenience for your family.</p>
+      </div>
+      <div class="service-box">
+        <h3>Commercial Plots</h3>
+        <p>Explore profitable investment opportunities with our range of commercial plots in prime business locations.</p>
+      </div>
+      <div class="service-box">
+        <h3>Construction Services</h3>
+        <p>From concept to completion, our professional construction services deliver durable and elegant results for homes and businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:alirehman2025@gmail.com">alirehman2025@gmail.com</a></p>
+    <p>Phone/WhatsApp: <a href="tel:+923121901286">+92 312 1901286</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AR Real Estate Consultant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
